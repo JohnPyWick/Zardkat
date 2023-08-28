@@ -76,7 +76,7 @@ This will generate the **out** file with circuit intermediaries and geneate the 
 ### Prove and Deploy
 `npx hardhat run scripts/deploy.ts`
 This script does 4 things  
-1. Deploys the MultiplierVerifier.sol contract
+1. Deploys the WickCircuitVerifier.sol contract
 2. Generates a proof from circuit intermediaries with `generateProof()`
 3. Generates calldata with `generateCallData()`
 4. Calls `verifyProof()` on the verifier contract with calldata
