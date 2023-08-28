@@ -1,0 +1,13 @@
+[
+  {
+    "name": "WickCircuit",
+    "protocol": "groth16",
+    "circuit": "WickCircuit/circuit.circom",
+    "input": "WickCircuit/input.json",
+    "wasm": "WickCircuit/out/circuit.wasm",
+    "zkey": "WickCircuit/out/WickCircuit.zkey",
+    "vkey": "WickCircuit/out/WickCircuit.vkey",
+    "r1cs": "WickCircuit/out/WickCircuit.r1cs",
+    "beacon": "0102030405060708090a0b0c0d0e0f101112131415161718191a1b1c1d1e1f"
+  }
+]
